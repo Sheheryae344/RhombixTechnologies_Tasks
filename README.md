@@ -62,7 +62,7 @@ Perform Exploratory Data Analysis (EDA) on the cleaned Titanic dataset.
 This task involved downloading a real-world e-commerce dataset from Kaggle, loading it into a Microsoft SQL Server 2025 database, and writing SQL queries to extract meaningful business insights — top-selling products, revenue by country, monthly revenue trends, and top customers by spend.
 
 ## Dataset
-- **Source:** Kaggle — Online Retail Dataset
+- **Source:** Kaggle — E-Commerce Dataset
 - **Format:** CSV, imported into SQL Server via the Import Flat File Wizard
 - **Rows:** 500,000+ transaction line items
 - **Columns:** `InvoiceNo`, `StockCode`, `Description`, `Quantity`, `InvoiceDate`, `UnitPrice`, `CustomerID`, `Country`
@@ -85,3 +85,35 @@ This task involved downloading a real-world e-commerce dataset from Kaggle, load
 - **Revenue by country**, identifying the highest-grossing markets
 - **Monthly revenue trend**, identifying the highest and lowest revenue months
 - **Top customers by lifetime spend**
+
+# Task 2.2: KPI Tracking & Interactive Dashboard
+
+## Objective
+
+Create an interactive Power BI dashboard to track important e-commerce sales KPIs and visualize business performance.
+
+## Tools Used
+
+- Power BI
+- SQL Server
+- DAX
+
+## KPIs & Visualizations
+
+- Total Revenue
+- Total Quantity
+- Total Orders
+- Total Customers
+- Monthly Growth %
+- Monthly Revenue Trend
+- Top 10 Countries by Revenue
+- Top 10 Products by Revenue
+- Country and Month/Year filters
+
+## Key Insights
+
+- United Kingdom generated the highest revenue.
+- Monthly revenue varied throughout the year.
+- Top products and countries were identified based on revenue.
+- Interactive filters allow users to explore sales performance.
+
